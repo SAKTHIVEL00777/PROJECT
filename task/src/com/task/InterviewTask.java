@@ -13,9 +13,16 @@ public class InterviewTask {
 		//it.binaryORNot();
 		//it.palindrome("ABCBA");
 		//it.factorial();
-		it. allFactorials();
+		//it. allFactorials();
+		it.variable
 
 	}
+	private void variable() {
+	    // TODO Auto-generated method stub
+		int a=25;
+		
+		System.out.println(a);
+		}
 	private void allFactorials() {
 		// TODO Auto-generated method stub
 		int fact=5;
