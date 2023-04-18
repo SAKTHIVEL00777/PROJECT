@@ -14,10 +14,13 @@ public class Demo {
 	private void variable() {
 		// TODO Auto-generated method stub
 		int a=25;
+	        String name="ABD";
+
 		System.out.println(a);
-		
 		System.out.println(bb);
 		System.out.println(village);
+                System.out.println(name);
+
 		
 		
 	}
