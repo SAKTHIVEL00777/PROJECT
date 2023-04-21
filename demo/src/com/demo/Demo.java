@@ -15,11 +15,13 @@ public class Demo {
 		// TODO Auto-generated method stub
 		int a=25;
 	        String name="ABD";
+		Boolean boo=true;
 
 		System.out.println(a);
 		System.out.println(bb);
 		System.out.println(village);
                 System.out.println(name);
+		System.out.println(boo);
 
 		
 		
