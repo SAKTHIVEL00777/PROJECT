@@ -5,7 +5,7 @@ public class Demo {
 	int bb=150;
 	static String village="sengai";
 	public static void main(String[] args) {
-		/// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
 
 		//System.out.println("HELLO");
 		Demo d=new Demo();
