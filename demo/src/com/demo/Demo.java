@@ -16,12 +16,15 @@ public class Demo {
 		int a=25;
 	        String name="ABD";
 		Boolean boo=true;
+	        Float f=523.5f;
+
 
 		System.out.println(a);
 		System.out.println(bb);
 		System.out.println(village);
                 System.out.println(name);
 		System.out.println(boo);
+                System.out.println(f);
 
 		
 		
