@@ -17,6 +17,8 @@ public class Demo {
 	        String name="ABD";
 		Boolean boo=true;
 	        Float f=523.5f;
+		Double d=9856d;
+
 
 
 		System.out.println(a);
@@ -25,6 +27,7 @@ public class Demo {
                 System.out.println(name);
 		System.out.println(boo);
                 System.out.println(f);
+	        System.out.println(d);
 
 		
 		
