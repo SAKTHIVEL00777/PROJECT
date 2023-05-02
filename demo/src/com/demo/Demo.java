@@ -12,7 +12,7 @@ public class Demo {
 		d.variable();
 	}
 	private void variable() {
-		/// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
 		int a=25;
 	        String name="ABD";
 		Boolean boo=true;
