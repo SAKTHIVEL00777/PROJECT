@@ -2,7 +2,7 @@ package com.demo;
 
 public class Demo {
 	
-	int bb=155;
+	int bb=125;
 	static String village="SENGAI";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
