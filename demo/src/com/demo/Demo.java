@@ -14,7 +14,7 @@ public class Demo {
 	private void variable() {
 		// TODO Auto-generated method stub
 		int a=55;
-	        String name="ABD";
+	        String name="MSD";
 		Boolean boo=true;
 	        Float f=523.5f;
 		Double d=9856d;
