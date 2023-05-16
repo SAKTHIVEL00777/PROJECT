@@ -16,7 +16,7 @@ public class Demo {
 		int a=555;
 	        String name="MSD";
 		Boolean boo=true;
-	        Float f=523.5f;
+	        Float f=523.3f;
 		Double d=9856d;
 
 
