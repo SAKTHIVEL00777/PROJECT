@@ -18,7 +18,7 @@ public class Demo {
 		Boolean boo=true;
 	        Float f=523.3f;
 		Double d=9857d;
-
+		long set=987654093;
 
 
 		System.out.println(a);
@@ -28,6 +28,8 @@ public class Demo {
 		System.out.println(boo);
                 System.out.println(f);
 	        System.out.println(d);
+		System.out.println(set);
+		
 
 		
 		
