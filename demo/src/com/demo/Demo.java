@@ -2,8 +2,8 @@ package com.demo;
 
 public class Demo {
 	
-	int bb=125;
-	static String city="TRICHY";
+	int bb=150;
+	static String village="sengai";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -13,23 +13,23 @@ public class Demo {
 	}
 	private void variable() {
 		// TODO Auto-generated method stub
-		int a=555;
-	        String name="MSD";
-		Boolean boo=true;
-	        Float f=523.3f;
-		Double d=9857d;
-		long set=987654093;
+	       int a=25;
+	       String name="ABD";
+	       Boolean boo=true;
+	       Float f=523.5f;
+	       Double d=9856d;
+	       long set=987654093;
+	       char let='c';
 
-
-		System.out.println(a);
-		System.out.println(bb);
-		System.out.println(village);
-                System.out.println(name);
-		System.out.println(boo);
-                System.out.println(f);
-	        System.out.println(d);
-		System.out.println(set);
-		
+	      System.out.println(a);
+	      System.out.println(bb);
+	      System.out.println(village);
+              System.out.println(name);
+              System.out.println(boo);
+              System.out.println(f);
+              System.out.println(d);
+              System.out.println(set);
+              System.out.println(let);
 
 		
 		
