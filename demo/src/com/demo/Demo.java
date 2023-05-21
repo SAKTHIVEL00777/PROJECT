@@ -18,7 +18,7 @@ public class Demo {
 	       Boolean boo=true;
 	       Float f=523.5f;
 	       Double d=9856d;
-	       long set=987654093;
+	       long set=987654095;
 	       char let='c';
 
 	      System.out.println(a);
