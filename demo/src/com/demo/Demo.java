@@ -19,7 +19,7 @@ public class Demo {
 	       Float f=523.5f;
 	       Double d=9856d;
 	       long set=987654095;
-	       char let='c';
+	       Character let='c';
 
 	      System.out.println(a);
 	      System.out.println(bb);
