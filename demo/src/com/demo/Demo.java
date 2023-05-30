@@ -13,7 +13,8 @@ public class Demo {
 		d.viwol();
 	}
 	private void viwol() {
-		// TODO Auto-generated method stub
+		/// TODO Auto-generated method stub
+
 		//a=@, e=$, i=&, o=%, u=#
 		String name="Hello Qantler";
 		String word="";
