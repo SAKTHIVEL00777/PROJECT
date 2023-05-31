@@ -16,6 +16,7 @@ public class Demo {
 		/// TODO Auto-generated method stub
 
 		//a=@, e=$, i=&, o=%, u=#
+
 		String name="Hello Qantler";
 		String word="";
 		char ch[]=name.toCharArray();
