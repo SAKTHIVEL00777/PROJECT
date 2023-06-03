@@ -2,7 +2,7 @@ package com.demo;
 
 public class Demo {
 	
-	int bb=155;
+	int bb=150;
 	static String village="sengai";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,13 +10,36 @@ public class Demo {
 		System.out.println("HELLO");
 		Demo d=new Demo();
 		//d.variable();
-		d.viwol();
+		//d.viwol();
+		d.find2and3digit();
+	}
+	private void find2and3digit() {
+		// TODO Auto-generated method stub
+		int arr[]={101, 422, 33, 441, 572, 163, 770, 782, 499, 500};
+		int count=0;
+		for(int i=0;i<arr.length;i++){
+			
+			if(arr[i]%10==2){
+				System.out.print(arr[i]+" ");
+				count++;
+			}
+			
+		}
+		System.out.print(" count="+count+" ");
+		System.out.println();
+		count=0;
+		for(int i=0;i<arr.length;i++){
+			 if(arr[i]%10==3){
+				System.out.print(arr[i]+" ");
+				count++;
+			}
+			
+		}
+		System.out.print(" count="+count+" ");
 	}
 	private void viwol() {
 		// TODO Auto-generated method stub
-
 		//a=@, e=$, i=&, o=%, u=#
-
 		String name="Hello Qantler";
 		String word="";
 		char ch[]=name.toCharArray();
