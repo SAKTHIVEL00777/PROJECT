@@ -12,7 +12,28 @@ public class Demo {
 		//d.variable();
 		//d.viwol();
 		//d.find2and3digit();
-		d.reverse();
+		//d.reverse();
+		d.sort();
+	}
+	private void sort() {
+		// TODO Auto-generated method stub
+		int[] c={4,2,9,5,7};
+		for(int i=0;i<c.length;i++){
+			int temp=0;
+			for(int k=1;k<c.length;k++){
+				if(c[k-1]>c[k]){
+					temp=c[k-1];
+					c[k-1]=c[k];
+					c[k]=temp;
+				}
+			}
+		}
+		System.out.println();
+		System.out.println("ASCENDING ORDER");
+		for(int i=0;i<c.length;i++){
+			System.out.print(c[i]+" ");
+		}
+		
 	}
 	private void reverse() {
 		// TODO Auto-generated method stub
