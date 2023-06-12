@@ -5,15 +5,30 @@ public class Demo {
 	int bb=150;
 	static String village="sengai";
 	public static void main(String[] args) {
-		/// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
 
-		//System.out.println("HELLO");
+		System.out.println("HELLO");
 		Demo d=new Demo();
 		//d.variable();
 		//d.viwol();
 		//d.find2and3digit();
 		//d.reverse();
-		d.sort();
+		//d.sort();
+		d.equalSum();
+	}
+	private void equalSum() {
+		// TODO Auto-generated method stub
+		int ar[]={3,4,6,7,8};
+		int target=10;
+		for(int i=0;i<ar.length;i++){
+			
+			for(int j=i+1;j<ar.length;j++){
+				if(ar[i]+ar[j]==target){
+					System.out.println("("+ar[i]+","+ar[j]+")");
+				}
+			}
+		}
+		
 	}
 	private void sort() {
 		// TODO Auto-generated method stub
