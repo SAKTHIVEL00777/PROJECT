@@ -14,7 +14,7 @@ public class Demo {
 		//d.find2and3digit();
 		//d.reverse();
 		//d.sort();
-		d.equalSum();
+		//d.equalSum();
 	}
 	private void equalSum() {
 		// TODO Auto-generated method stub
