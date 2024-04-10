@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Index</title>
+</head>
+<header style="color:aqua;"><h3 style="text-align: center; background-color: maroon;">Employee Form</h3></header>
+<body style="background-color: lime;">
+<form action="employee" method="post"><br>
+<label>Emp Name:</label><br>
+<input type="text" name="employeeName" placeholder="EmpName" /><br><br>
+
+<label>Email:</label><br>
+<input type="text" name="email" placeholder="Email" /><br><br>
+
+<label>DOB:</label><br>
+<input type="date" name="dateOfBirth" placeholder="Dob" /><br><br>
+
+<label>Password:</label><br>
+<input type="password" name="password" placeholder="Password" /><br><br>
+
+<label>Mobile No:</label><br>
+<input type="number" name="mobileNumber" placeholder="Mobile No" maxlength="10"/><br><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender" value="male"><label>Male</label>
+<input type="radio" name="gender" value="female">Female<br><br>
+
+<label>Employee Role:</label><br>
+<input type="checkbox" name="role" value="Manager" /><label>Manager</label>
+<input type="checkbox" name="role" value="Staff" />Staff
+<input type="checkbox" name="role" value="Security" />Security<br><br>
+
+<label>Address:</label><br>
+<input type="text" name="address" placeholder="Address" /> <br><br>
+
+<label>City:</label><br>
+<input type="text" name="city" placeholder="City" /> <br><br>
+
+<label>State:</label><br>
+<input type="text" name="state" placeholder="State" /> <br><br>
+
+<label>Country:</label><br>
+<input type="text" name="country" placeholder="Country" /> <br><br>
+
+
+<input type="hidden" name="empId"  placeholder="EmpId" value="10" /><br><br>
+
+<input type="submit" value="EmpRegister"  />
+
+<input type="reset" value="Reset">
+
+
+</form>
+</body>
+</html>
